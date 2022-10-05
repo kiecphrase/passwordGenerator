@@ -1,0 +1,95 @@
+/* GENERAL */
+.body-one{
+    background-color: antiquewhite;
+}
+
+/* STRUCTURE DIVS */
+#center-hor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#center-ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#announcement{
+    text-align: center;
+}
+
+.spacer{
+    margin: 3.5rem;
+}
+
+.tskbr{
+    position: fixed;
+    width: 99%;
+    height: 2rem;
+    left: 0px;
+    top: 0px;
+    padding: 1rem 0.5rem 0.1rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+
+TEXT 
+
+font-family: 'Delius Unicase', cursive;
+font-family: 'Sniglet', cursive;
+
+*/
+
+.title{
+    font-family: 'Sniglet', cursive;
+    font-size: 8rem;
+    color: teal;
+}
+
+.subtext{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1.5rem;
+    color: steelblue;
+}
+
+.texty{
+    font-size: 2.35rem;
+}
+
+/* OTHER STUFF */
+
+.button {
+    margin: 1rem;
+    padding: 1.25rem;
+    background-color: tomato;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(255, 250, 250);
+}
+
+.button:hover {
+    background-color: rgb(165, 66, 48);
+    color: black;
+}
+
+.altLink {
+    padding: 0 0.3rem 0 0.3rem;
+    text-decoration: overline red;
+    color: red;
+}
+
+.altLink:hover {
+    padding: 0 0.3rem 0 0.3rem;
+    text-decoration: underline blueviolet;
+    color: blueviolet;
+    font-size: 1.25rem;
+}
